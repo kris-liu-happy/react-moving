@@ -10,7 +10,6 @@ const DefaultChildren = () => {
 }
 
 interface MouseMoveProps {
-  renderComponent?: ReactNode | undefined;
   children?: ReactNode | undefined;
   // 是否限制物体在边界
   islimitInBrowser?: boolean;
